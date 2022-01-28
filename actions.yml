@@ -1,0 +1,14 @@
+name: "Uptime-Core"
+description: "Core functionality that powers both Upptime and CLI"
+author: "Upptime <https://github.com/upptime>"
+inputs:
+  command:
+    required: true
+    description: "Command to run"
+    default: "update"
+runs:
+  using: "node16"
+  main: "dist/index.js"
+branding:
+  icon: "chevron-up"
+  color: "green"

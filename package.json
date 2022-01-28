@@ -1,0 +1,32 @@
+{
+  "name": "uptime-core",
+  "version": "0.0.1",
+  "description": "Core functionality that powers both Upptime and CLI",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "format": "prettier src/* --write",
+    "package": "ncc build --source-map"
+  },
+  "repository": "git+https://github.com/upptime/uptime-core.git",
+  "keywords": [
+    "github",
+    "github actions",
+    "nodejs",
+    "typescript",
+    "starter",
+    "upptime",
+    "uptime-core"
+  ],
+  "author": "Upptime <upptime@pabio.com> (https://github.com/upptime)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/upptime/uptime-core/issues"
+  },
+  "homepage": "https://github.com/upptime/uptime-core#readme",
+  "devDependencies": {
+    "@types/prettier": "^2.4.3",
+    "prettier": "^2.5.1"
+  }
+}
